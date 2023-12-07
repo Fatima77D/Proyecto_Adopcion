@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="logo/logoadop.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <!--logo + empresa-->
+        <a href="index.html">
+            <img src="logo/logoadop.png" alt="Logo-Adopcion">
+            Huellitas de Amor
+        </a>
+
+        <a href="index.html">
+        </a>
+
+        <!--NAVEGACION-->
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="adopcion.html">Adopcion</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <main id="adopform">
+        <h1>Formulario de adopción</h1>
+        <form action="../../form-result.php" target="_blank">
+
+            <fieldset>
+              <legend>Información personal</legend>
+              <p><label>Nombre: <input type="text" name="nombre"></label><label>Edad: <input type="text" name="edad"></label></p>
+              <p><label>Dirección: <input type="text" name="direccion"></label><label>Numero: <input type="text" name="numero"></label></p>
+              <p><label>Documento: <input type="text" name="documento"></label></p>
+              <p><label>Telefono: <input type="text" name="telefono"></label></p>
+              <p>
+                Género:
+            
+                <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+            
+              </p>
+            </fieldset>
+            <br>
+          
+            <fieldset>
+              <legend>Acerca de la adopción:</legend>
+              <p><label>¿Tu familia esta de acuerdo con esta adopcion? ¿Que comentarios han hecho al respecto? <br>
+                <input type="text" name="respuesta1"></label></p>
+              <p><label>¿Por que queres adoptar? <br> <input type="text" name="adoptar"></label></p>
+              <p><label>¿Tienes otros animales en casa?¿Que servicios les das? <br> <input type="text" name="adoptar"></label></p>
+              
+            </fieldset>
+            <input type="submit" value="Enviar solicitud" id="botonform">
+        </form>
+    </main>
+    <footer>
+        <!--logo + empresa-->
+        <a href="index.html">
+            <img src="logo/logoadop.png" alt="logo">
+            Huellitas de Amor
+        </a>
+
+        <!-- redes sociales -->
+        <nav>
+            <a href="">
+                <img src="logo/whatsapp.png" alt="wpp">
+            </a>
+            <a href="">
+                <img src="logo/instagram.png" alt="insta">
+            </a>
+            <a href="">
+                <img src="logo/facebook.png" alt="face">
+            </a>
+            <a href="">
+                <img src="logo/correo.png" alt="correo">
+            </a>
+        </nav>
+
+    </footer>
+
+        
+      
+      
+</body>
+</html>

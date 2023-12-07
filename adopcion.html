@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas de Amor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="logo/logoadop.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <!--logo + empresa-->
+        <a href="index.html">
+            <img src="logo/logoadop.png" alt="Logo-Adopcion">
+            Huellitas de Amor
+        </a>
+
+        <a href="index.html">
+        </a>
+
+        <!--NAVEGACION-->
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="adopcion.html">Adopcion</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="adopcion">
+            <h1>Encontra a tu peludito</h1>
+            <h2>¿Que tipo de mascota buscas?</h2>
+            <a href="gatos.html">
+                <article>
+                    <img src="imgs/adoptaG2.jpg" alt="Adopta un gato">
+
+                </article>
+            </a>
+            <a href="perros.html">
+                <article>
+                    <img src="imgs/adoptaP2.jpg" alt="Adopta un perro">
+                    
+                </article>
+            </a>
+            <h2>Requisitos:</h2>
+            <p>
+                <ul>
+                    <li>Ser mayor de edad.</li>
+                    <li>Amar los animales y poder dedicarle tiempo.</li>
+                    <li>Querer sumar un integrante a tu familia.</li>
+                    <li> Comprometerse con el cuidado, salud y castracion de la mascota</li>
+                </ul>
+            </p>
+                
+            
+        </section>
+        <section>
+            
+        </section>
+
+
+    </main>
+    <footer>
+        <!--logo + empresa-->
+        <a href="index.html">
+            <img src="logo/logoadop.png" alt="logo">
+            Huellitas de Amor
+        </a>
+        <a name="contacto" id="contacto">
+            
+            <form action="contacto" method="post"> 
+                <div class="elem-group"> 
+                    <label for="name">Nombre</label> 
+                    <input type="text" id="name" name="visitor_name" placeholder="Nombre de ejemplo" pattern=[A-Z\sa-z]{3,20} required> 
+                </div> 
+                <div class="elem-group"> 
+                    <label for="email">Correo electrónico</label> 
+                    <input type="email" id="email" name="visitor_email" placeholder="ejemplo@email.com" required> 
+                </div> 
+                <div class="elem-group"> 
+                    <label for="title">Motivo de contacto</label> 
+                    <input type="text" id="title" name="email_title" required placeholder="Problema/Consulta" pattern=[A-Za-z0-9\s]{8,60}> 
+                </div> 
+                <div class="elem-group"> 
+                    <label for="message">Solicitud</label> 
+                    <textarea id="message" name="visitor_message" placeholder="Escribe tu mensaje aquí." required></textarea> 
+                </div> 
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </a>
+        <!-- redes sociales -->
+        <nav>
+            <a href="">
+                <img src="logo/whatsapp.png" alt="wpp">
+            </a>
+            <a href="">
+                <img src="logo/instagram.png" alt="insta">
+            </a>
+            <a href="">
+                <img src="logo/facebook.png" alt="face">
+            </a>
+            <a href="">
+                <img src="logo/correo.png" alt="correo">
+            </a>
+        </nav>
+
+    </footer>
+</body>
+</html>
